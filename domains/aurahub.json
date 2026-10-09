@@ -6,7 +6,12 @@
   "description": "AURA Hub — an AI-native software engineering environment (IDE-style desktop app). Public project site.",
   "repo": "https://github.com/Aura-hub-ai-native-workspace/aura-hub-website",
   "records": {
-    "CNAME": "aura-hub-ai-native-workspace.github.io"
+    "CNAME": "aura-hub-ai-native-workspace.github.io",
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
-  "proxied": false
+  "proxied": true
 }
